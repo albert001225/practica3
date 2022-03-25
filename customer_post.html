@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="breadcrumb is-centered">
+            PRACTICA 3
+        </h1>
+    </div>
+    <div class="container is-max-desktop">
+        <form action="customer_post.php" method="post">
+            <div>
+                <label for="txtNombre">Nombre</label>
+                <input class="input" type="text" name="first_name" id="txtNombre">
+            </div>
+            <div>
+                <label for="txtApellido">Apellido</label>
+                <input class="input" type="text" name="last_name" id="txtApellido">
+            </div>
+            <div>
+                <label for="txtfechaNacimiento">Fecha de Nacimiento</label>
+                <input class="input" type="date" name="birth_date" id="txtfechaNacimiento">
+            </div>
+            <div>
+                <label for="txtCiudad">Ciudad</label>
+                <input class="input" type="text" name="city" id="txtCiudad">
+            </div>
+            <div>
+                <button class="button" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
